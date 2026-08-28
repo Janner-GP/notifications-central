@@ -1,0 +1,20 @@
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-oo8jlj sitelibdir\=./.gem.20260826-10063-oo8jlj clean
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-oo8jlj sitelibdir\=./.gem.20260826-10063-oo8jlj
+compiling escape.c
+linking shared-object erb/escape.bundle
+ld: warning: search path '/usr/local/Cellar/openssl@3/3.6.2/lib' not found
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-oo8jlj sitelibdir\=./.gem.20260826-10063-oo8jlj install
+/usr/bin/install -c -m 0755 escape.bundle ./.gem.20260826-10063-oo8jlj/erb
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/erb-6.0.7/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-oo8jlj sitelibdir\=./.gem.20260826-10063-oo8jlj clean

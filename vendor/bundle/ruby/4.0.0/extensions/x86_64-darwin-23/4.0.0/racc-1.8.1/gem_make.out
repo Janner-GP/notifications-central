@@ -1,0 +1,19 @@
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-ot1cek sitelibdir\=./.gem.20260826-10063-ot1cek clean
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-ot1cek sitelibdir\=./.gem.20260826-10063-ot1cek
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: search path '/usr/local/Cellar/openssl@3/3.6.2/lib' not found
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-ot1cek sitelibdir\=./.gem.20260826-10063-ot1cek install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260826-10063-ot1cek/racc
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-ot1cek sitelibdir\=./.gem.20260826-10063-ot1cek clean

@@ -1,0 +1,20 @@
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-513leh sitelibdir\=./.gem.20260826-10063-513leh clean
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-513leh sitelibdir\=./.gem.20260826-10063-513leh
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: search path '/usr/local/Cellar/openssl@3/3.6.2/lib' not found
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-513leh sitelibdir\=./.gem.20260826-10063-513leh install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20260826-10063-513leh/debug
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-513leh sitelibdir\=./.gem.20260826-10063-513leh clean

@@ -1,0 +1,25 @@
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/date-3.5.1/ext/date
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with -Werror... yes
+checking for altzone in time.h with -Werror... no
+creating Makefile
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/date-3.5.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-6877hm sitelibdir\=./.gem.20260826-10063-6877hm clean
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/date-3.5.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-6877hm sitelibdir\=./.gem.20260826-10063-6877hm
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+ld: warning: search path '/usr/local/Cellar/openssl@3/3.6.2/lib' not found
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/date-3.5.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-6877hm sitelibdir\=./.gem.20260826-10063-6877hm install
+/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20260826-10063-6877hm
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/date-3.5.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-6877hm sitelibdir\=./.gem.20260826-10063-6877hm clean

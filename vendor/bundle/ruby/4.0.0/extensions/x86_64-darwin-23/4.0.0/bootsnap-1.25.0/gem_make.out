@@ -1,0 +1,24 @@
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.25.0/ext/bootsnap
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for fstatat() in sys/stat.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.25.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-4832mo sitelibdir\=./.gem.20260826-10063-4832mo clean
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.25.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-4832mo sitelibdir\=./.gem.20260826-10063-4832mo
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: search path '/usr/local/Cellar/openssl@3/3.6.2/lib' not found
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.25.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-4832mo sitelibdir\=./.gem.20260826-10063-4832mo install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20260826-10063-4832mo/bootsnap
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/bootsnap-1.25.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-4832mo sitelibdir\=./.gem.20260826-10063-4832mo clean

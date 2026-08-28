@@ -1,0 +1,19 @@
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-dqpdyg sitelibdir\=./.gem.20260826-10063-dqpdyg clean
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-dqpdyg sitelibdir\=./.gem.20260826-10063-dqpdyg
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: search path '/usr/local/Cellar/openssl@3/3.6.2/lib' not found
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-dqpdyg sitelibdir\=./.gem.20260826-10063-dqpdyg install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20260826-10063-dqpdyg
+
+current directory: /Users/janner-gp/Proyectos/personales/buk/notification_hub/vendor/bundle/ruby/4.0.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260826-10063-dqpdyg sitelibdir\=./.gem.20260826-10063-dqpdyg clean
