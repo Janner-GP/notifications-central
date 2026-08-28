@@ -37,15 +37,21 @@ app/
 
 ```bash
 cp .env.example .env
-# Editar .env con tus credenciales:
-#   SENDGRID_API_KEY=SG.xxxxx
-#   NOTIFICATION_SENDER_EMAIL=notificaciones@tudominio.cl
 ```
+
+Editar `.env` con tus credenciales:
+
+```
+SENDGRID_API_KEY=SG.xxxxx
+NOTIFICATION_SENDER_EMAIL=notificaciones@tudominio.cl
+DATABASE_URL=postgresql://usuario:password@host:5432/nombre_bd
+```
+
+`DATABASE_URL` acepta cualquier instancia PostgreSQL — local, Docker o cloud (Supabase, Railway, etc.). Si no se define, Rails usa la configuración de `config/database.yml`.
 
 ### 2. Base de datos
 
 ```bash
-rails db:create
 rails db:migrate
 ```
 
