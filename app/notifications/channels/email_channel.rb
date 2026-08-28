@@ -3,14 +3,15 @@ module Channels
     SENDER_EMAIL = ENV.fetch("NOTIFICATION_SENDER_EMAIL", "notificaciones@buk.cl")
     SENDER_NAME  = "Buk Notificaciones"
 
-    def self.deliver(title:, body:, recipient:)
-      response = sendgrid_client.client.mail._("send").post(request_body: build_payload(title:, body:, recipient:))
+    # Usa email: del contexto. Las claves extra (phone:, slack_id:, etc.) se ignoran.
+    def self.deliver(title:, body:, email:, **)
+      response = sendgrid_client.client.mail._("send").post(request_body: build_payload(title:, body:, email:))
 
       unless response.status_code.to_i == 202
         raise DeliveryError, "Sendgrid respondió #{response.status_code}: #{response.body}"
       end
 
-      Rails.logger.info("[EmailChannel] Enviado a #{recipient} | Asunto: #{title}")
+      Rails.logger.info("[EmailChannel] Enviado a #{email} | Asunto: #{title}")
     end
 
     class DeliveryError < StandardError; end
@@ -22,9 +23,9 @@ module Channels
     end
 
     # Construye el payload que espera la API de Sendgrid
-    def self.build_payload(title:, body:, recipient:)
+    def self.build_payload(title:, body:, email:)
       {
-        personalizations: [{ to: [{ email: recipient }] }],
+        personalizations: [{ to: [{ email: email }] }],
         from:    { email: SENDER_EMAIL, name: SENDER_NAME },
         reply_to: { email: SENDER_EMAIL, name: SENDER_NAME },
         subject: title,

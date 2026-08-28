@@ -8,7 +8,7 @@ class NotificationsController < ApplicationController
   # Body: { "email": "juan@empresa.cl" }
   def birthday
     validate_email! do
-      BirthdayNotification.send(params[:email])
+      BirthdayNotification.send(email: params[:email])
       render json: {
         status:    "encolado",
         type:      "BirthdayNotification",
@@ -21,7 +21,7 @@ class NotificationsController < ApplicationController
   # Body: { "email": "juan@empresa.cl" }
   def survey
     validate_email! do
-      SurveyNotification.send(params[:email])
+      SurveyNotification.send(email: params[:email])
       render json: {
         status:    "encolado",
         type:      "SurveyNotification",
